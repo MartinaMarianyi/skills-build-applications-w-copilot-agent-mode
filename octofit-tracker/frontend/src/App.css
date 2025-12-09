@@ -1,0 +1,129 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #d4f8e8 0%, #b2f7c1 100%);
+  min-height: 100vh;
+  color: #2d2d2d;
+}
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: #fff;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 4px 24px rgba(106,17,203,0.1);
+}
+
+.App-link {
+  color: #ff6f61;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #2575fc;
+}
+/* Bootstrap Table Customization */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+thead.table-dark {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+}
+tbody tr:hover {
+  background: #f3eaff;
+}
+
+/* Bootstrap Button Customization */
+.btn-primary {
+  background: linear-gradient(90deg, #ff6f61 0%, #ffb86c 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(255,111,97,0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #6a11cb;
+  font-weight: 700;
+}
+h2.text-success {
+  color: #2575fc !important;
+}
+h2.text-info {
+  color: #ff6f61 !important;
+}
+h2.text-warning {
+  color: #ffb86c !important;
+}
+h2.text-danger {
+  color: #ff61a6 !important;
+}
+
+/* Navigation */
+.navbar {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%) !important;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.nav-link.active {
+  color: #ffb86c !important;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+
+/* Card Customization */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(106,17,203,0.08);
+  background: #fff;
+}
+.card-body {
+  padding: 2rem;
+}
+
+/* Favicon and logo styles */
+.app-favicon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
